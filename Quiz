@@ -1,0 +1,59 @@
+Write a program that takes two integer inputs, x, and y, and displays their average in two decimal places.
+Sample Output 1
+
+Enter x: 10
+Enter y: 4
+Average: 7.00
+Sample Output 2
+
+Enter x: 20
+Enter y: 15
+Average: 17.50
+Sample Output 3
+
+Enter x: 6
+Enter y: 3
+Average: 4.50
+
+ANS.
+
+let x = 10;
+let x = 4;
+
+const x = parseInt(prompt("Enter x: 10"), 10);
+const y = parseInt(prompt("Enter x: 10"), 10);
+
+console.log("Average:", calculateAverage(x,y));
+
+10+4\2= 7
+
+let x = 20;
+let x = 15;
+
+const x = parseInt(prompt("Enter x: 20"), 10);
+const y = parseInt(prompt("Enter x: 15"), 10);
+
+console.log("Average:", calculateAverage(x,y));
+
+20+15\2= 17.50
+
+
+let x = 6;
+let x = 3;
+
+const x = parseInt(prompt("Enter x: 6"), 10);
+const y = parseInt(prompt("Enter x: 3"), 10);
+
+console.log("Average:", calculateAverage(x,y));
+
+6+3\2= 4.50
+
+
+
+
+
+
+
+
+
+
